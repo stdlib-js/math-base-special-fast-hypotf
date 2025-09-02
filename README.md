@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Compute the [hypotenuse][hypotenuse] of a single-precision floating-point number.
+> Compute the [hypotenuse][hypotenuse] of two single-precision floating-point numbers.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -75,7 +75,7 @@ var hypotf = require( '@stdlib/math-base-special-fast-hypotf' );
 
 #### hypotf( x, y )
 
-Computes the [hypotenuse][hypotenuse] of a single-precision floating-point number.
+Computes the [hypotenuse][hypotenuse] of two single-precision floating-point numbers.
 
 ```javascript
 var h = hypotf( -5.0, 12.0 );
@@ -164,7 +164,7 @@ logEachMap( 'h(%d,%d) = %0.4f', x, y, hypotf );
 
 #### stdlib_base_fast_hypotf( x, y )
 
-Computes the hypotenuse of a single-precision floating-point number.
+Computes the hypotenuse of two single-precision floating-point numbers.
 
 ```c
 float h = stdlib_base_fast_hypotf( 5.0f, 12.0f );
