@@ -234,7 +234,6 @@ int main( void ) {
 
 <section class="related">
 
-
 </section>
 
 <!-- /.related -->
@@ -312,7 +311,6 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-fast-hypotf/main/LICENSE
 
 [hypotenuse]: https://en.wikipedia.org/wiki/Pythagorean_theorem
-
 
 </section>
 
