@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hypotf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-hypotf@deno/mod.js';
+import hypotf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-hypotf@v0.1.0-deno/mod.js';
 ```
 
 #### hypotf( x, y )
@@ -103,7 +103,7 @@ var h = hypotf( -5.0, 12.0 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import hypotf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-hypotf@deno/mod.js';
+import hypotf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fast-hypotf@v0.1.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
